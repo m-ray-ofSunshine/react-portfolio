@@ -25,17 +25,17 @@ function Container(props) {
     return (
         <div className="card m-5 " style={{
             backgroundColor: 'rgba(151, 173, 198, 0.6)',
-            height: "50vh",
+            height: "75vh",
             width: "50vw",
             position: "absolute",
-            top: "20%",
+            top: "10%",
             left: "25vw",
            borderRadius: "10px"
 
         }}>
-            <div className="card-body d-flex justify-content-start">
+            
                {getPage()}
-            </div>
+            
         </div>
     )
 }

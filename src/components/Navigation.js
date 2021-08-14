@@ -11,10 +11,10 @@ const pageUpdate = (e) => {
 
     return (
         <nav className="col flex-column nav justify-content-around" >
-  <a className="nav-link " style={{color: "rgb(51, 59, 63)"}}  href="#" onClick={pageUpdate}>About me</a>
-  <a className="nav-link" style={{color: "rgb(51, 59, 63)"}} href="#" onClick={pageUpdate}>Projects</a>
-  <a className="nav-link" style={{color: "rgb(51, 59, 63)"}} href="#" onClick={pageUpdate}>Resume</a>
-  <a className="nav-link" style={{color: "rgb(51, 59, 63)"}} href="#" onClick={pageUpdate}>Contact me</a>
+  <a className="nav-link " style={{color: "rgb(51, 59, 63)"}}  href="#" rel="noreferrer" onClick={pageUpdate}>About me</a>
+  <a className="nav-link" style={{color: "rgb(51, 59, 63)"}} href="#" rel="noreferrer" onClick={pageUpdate}>Projects</a>
+  <a className="nav-link" style={{color: "rgb(51, 59, 63)"}} href="#" rel="noreferrer" onClick={pageUpdate}>Resume</a>
+  <a className="nav-link" style={{color: "rgb(51, 59, 63)"}} href="#" rel="noreferrer" onClick={pageUpdate}>Contact me</a>
 </nav>
     )
 }
