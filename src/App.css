@@ -38,3 +38,24 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background-image: url('./components/assets/images/yosemite.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100%;
+  
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateX(-50vw);
+  visibility: hidden;
+  transition: opacity 1s ease-out, transform 2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}

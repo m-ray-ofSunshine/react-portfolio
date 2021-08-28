@@ -28,7 +28,19 @@ function Projects() {
 
 
     return (
-        <div className="">
+        <div className=" d-flex justify-content-center" style={{
+            backgroundColor: 'rgba(151, 173, 198, 0.6)',
+            borderRadius: "10px",
+            height:"75vh",
+            width:"75vw",
+            marginTop:"5vh",
+            marginBottom:"10vh",
+            marginLeft:"9vw",
+            marginRight:"9vw",
+            padding: "2em"
+           
+
+        }}>
             <h3>Projects Lists</h3>
             <Project
                 projectData={projectData}
