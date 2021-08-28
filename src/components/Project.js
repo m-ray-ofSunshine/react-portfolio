@@ -3,22 +3,19 @@
 function Project(props) {
 
     return props.projectData.map((project, i) => (
-        
 
-
-            <div className="card" key={i} >
-                <img src="..." className="card-img-top" alt="..."></img>
-                <div className="card-body">
-                    <h5 className="card-title"><a href={project.deployedUrl} target="_blank">{project.name}</a></h5>
-                    <p className="card-text">{project.description}</p>
+        <div className={"carousel-item"+ (i === 0 ? "active": "")} key={i}>
+            <img src="..." className="d-block w-100" alt="..."/>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5><a href={project.deployedUrl} target="_blank">{project.name}</a></h5>
                     <a href={project.repoUrl} className="btn btn-primary">View the code.</a>
                 </div>
             </div>
 
 
-    
-    ))
 
+            ))
+            
 }
 
-export default Project;
+                        export default Project;

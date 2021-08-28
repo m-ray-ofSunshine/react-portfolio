@@ -22,7 +22,7 @@ function Projects() {
             deployedUrl: "https://arcane-castle-03954.herokuapp.com/",
             repoUrl: "https://github.com/m-ray-ofSunshine/one-track"
         },
-        
+
     ]
 
 
@@ -31,20 +31,36 @@ function Projects() {
         <div className=" d-flex justify-content-center" style={{
             backgroundColor: 'rgba(151, 173, 198, 0.6)',
             borderRadius: "10px",
-            height:"75vh",
-            width:"75vw",
-            marginTop:"5vh",
-            marginBottom:"10vh",
-            marginLeft:"9vw",
-            marginRight:"9vw",
+            height: "75vh",
+            width: "75vw",
+            marginTop: "5vh",
+            marginBottom: "10vh",
+            marginLeft: "9vw",
+            marginRight: "9vw",
             padding: "2em"
-           
+
 
         }}>
             <h3>Projects Lists</h3>
-            <Project
-                projectData={projectData}
-            ></Project>
+
+
+            <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+                <div className="carousel-inner">
+                    <Project
+                        projectData={projectData}
+                    ></Project>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
+            </div>
         </div>
     )
 }
