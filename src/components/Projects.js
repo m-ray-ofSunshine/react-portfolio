@@ -1,12 +1,21 @@
 
 import actorDatabase from "./assets/images/actorDatabase.PNG"
 import oneTrack from "./assets/images/oneTrack.png"
+import smileyRecruiter from "./assets/images/ProfileScreenshot.png"
 import weatherDashboard from "./assets/images/weatherDashboard.JPG"
+import teamProfile from "./assets/images/teamProfileCombined.jpg"
 import Carousel from 'react-bootstrap/Carousel';
 
 function Projects() {
 
     const projectData = [
+        {
+            name: "Smiley Recruiter",
+            description: "This is a job search web app that allows users to look for employment opportunities nationwide based on keywords and location input. If the user creates an account, they can also save job listings to their profile.",
+            deployedUrl: "https://safe-journey-56448.herokuapp.com/",
+            repoUrl: "https://github.com/m-ray-ofSunshine/group-pj3-smileyrecruiter",
+            img: smileyRecruiter
+        },
         {
             name: "Actor Database",
             description: "This app allows you to search for any actor or actress and return a page with relavent info.",
@@ -28,6 +37,13 @@ function Projects() {
             repoUrl: "https://github.com/m-ray-ofSunshine/one-track",
             img: oneTrack
         },
+        {
+            name: "Team Profile Generator",
+            description: "This is a command line app that will generate a team profile html after answering some prompts.",
+            repoUrl: "https://github.com/m-ray-ofSunshine/team-profile-generator",
+            img: teamProfile
+        },
+        
 
     ]
 
@@ -65,6 +81,8 @@ function Projects() {
                         <div className="p-2" style={{
                             backgroundColor: 'rgba(120, 147, 176, 0.85)',
                             borderRadius: "10px",
+                            fontSize: "1.75vh"
+
                         }}>
                             <h5 ><a href={projectData[0].deployedUrl} rel="noreferrer" target="_blank">{projectData[0].name}</a></h5>
                             <p className="text-dark font-weight-bolder">{projectData[0].description}</p>
@@ -113,6 +131,50 @@ function Projects() {
                             <h5 ><a href={projectData[2].deployedUrl} rel="noreferrer" target="_blank">{projectData[2].name}</a></h5>
                             <p className="text-dark font-weight-bolder">{projectData[2].description}</p>
                             <a href={projectData[2].repoUrl} target="_blank" rel="noreferrer" className="btn btn-primary"  >View the code.</a>
+                        </div>
+
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="image"
+                        src={projectData[3].img}
+                        style={{
+                            objectFit: "contain",
+                            
+                            width: "auto"
+                        }}
+                    />
+                    <Carousel.Caption>
+                        <div className="p-2" style={{
+                            backgroundColor: 'rgba(120, 147, 176, 0.85)',
+                            borderRadius: "10px",
+                        }}>
+                            <h5 ><a href={projectData[3].deployedUrl} rel="noreferrer" target="_blank">{projectData[3].name}</a></h5>
+                            <p className="text-dark font-weight-bolder">{projectData[3].description}</p>
+                            <a href={projectData[3].repoUrl} target="_blank" rel="noreferrer" className="btn btn-primary"  >View the code.</a>
+                        </div>
+
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="image"
+                        src={projectData[4].img}
+                        style={{
+                            objectFit: "contain",
+                            
+                            width: "auto"
+                        }}
+                    />
+                    <Carousel.Caption>
+                        <div className="p-2" style={{
+                            backgroundColor: 'rgba(120, 147, 176, 0.85)',
+                            borderRadius: "10px",
+                        }}>
+                            <h5 >{projectData[4].name}</h5>
+                            <p className="text-dark font-weight-bolder">{projectData[4].description}</p>
+                            <a href={projectData[4].repoUrl} target="_blank" rel="noreferrer" className="btn btn-primary"  >View the code.</a>
                         </div>
 
                     </Carousel.Caption>
