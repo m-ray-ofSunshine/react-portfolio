@@ -23,7 +23,7 @@ function Header() {
                     </button>
                     </div>
                     
-                    <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <div className="collapse navbar-collapse justify-content-end" style={{width: "100%"}} id="navbarSupportedContent">
                         <ul className="navbar-nav  mb-2 mb-lg-0">
                             <li className="nav-item">
                             <a className="nav-link m-2" style={{ color: "rgb(51, 59, 63)" }} href="#aboutMe" rel="noreferrer" >About me</a>
