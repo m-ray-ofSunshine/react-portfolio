@@ -1,6 +1,6 @@
-import Navigation from './Navigation';
 
-function Header(props) {
+
+function Header() {
 
     return (
         <header  className=" d-flex col-12 p-2 justify-content-between fixed-top" style={{
@@ -13,10 +13,10 @@ function Header(props) {
             
             <nav className="navbar navbar-expand-lg navbar-light w-100">
                 <div className="container-fluid d-flex ">
-                    <div className="justify-content-between">
-                    <a className="navbar-brand" style={{ color: "rgb(51, 59, 63)" }} href="#aboutMe">Matt Ray</a>
+                    <div className="justify-content-between" style={{width: "100%"}}>
+                    <a className="navbar-brand" style={{ color: "rgb(51, 59, 63)" , float: "left"}} href="#aboutMe">Matt Ray</a>
                     <button style={{
-                        marginLeft:"55vw"
+                        float: "right"
                     }}
                     className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -44,7 +44,7 @@ function Header(props) {
                     </div>
                 </div>
             </nav>
-            {/* <Navigation /> */}
+           
 
         </header>
     )

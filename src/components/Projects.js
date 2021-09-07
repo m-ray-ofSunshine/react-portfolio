@@ -76,6 +76,7 @@ function Projects() {
                             
                             width: "auto"
                         }}
+                        alt="Smiley Recruiter"
                     />
                     <Carousel.Caption>
                         <div className="p-2" style={{
@@ -100,6 +101,7 @@ function Projects() {
                             
                             width: "auto"
                         }}
+                        alt="Actor Database"
                     />
                     <Carousel.Caption>
                         <div className="p-2" style={{
@@ -122,6 +124,7 @@ function Projects() {
                             
                             width: "auto"
                         }}
+                        alt="Weather Dashboard"
                     />
                     <Carousel.Caption>
                         <div className="p-2" style={{
@@ -144,6 +147,7 @@ function Projects() {
                             
                             width: "auto"
                         }}
+                        alt="One Track"
                     />
                     <Carousel.Caption>
                         <div className="p-2" style={{
@@ -166,6 +170,7 @@ function Projects() {
                             
                             width: "auto"
                         }}
+                        alt="Team Profile Generator"
                     />
                     <Carousel.Caption>
                         <div className="p-2" style={{
