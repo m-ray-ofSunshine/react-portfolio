@@ -1,6 +1,12 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
 
 .App {
   text-align: center;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
   
 }
 
@@ -58,4 +64,66 @@ body {
   opacity: 1;
   transform: none;
   visibility: visible;
+}
+
+
+/* If the screen size is 601px wide or more */
+@media screen and (min-width: 601px) {
+  #brandStatement {
+    font-size: 2.5vw;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+  }
+  #aboutName {
+    font-size: 3.5vw;
+  }
+  #projects {
+    height: 75vh;
+    width: 75vw;
+  }
+  .image {
+    height: 60vh;
+  }
+  #resume {
+    height: 80vh;
+    width: 60vw;
+  }
+  #embedResume {
+    width: 90%;
+    height:85%;
+  }
+  #contactForm{
+    width: 50vw;
+  }
+}
+
+/* If the screen size is 600px wide or less */
+@media screen and (max-width: 600px) {
+  #brandStatement {
+    font-size: 4.5vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  #aboutName {
+    font-size: 5.5vw;
+  }
+  #projects {
+    height: 60vh;
+    width: 75vw;
+  }
+  .image {
+    height: 40vh;
+  }
+  #resume {
+    height: 85vh;
+    width: 85vw;
+    
+  }
+  #embedResume {
+    width: 95%;
+    height:85%
+  }
+  #contactForm{
+    width: 85vw;
+  }
 }

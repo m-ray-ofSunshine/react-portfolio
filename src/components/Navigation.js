@@ -10,7 +10,7 @@ const pageUpdate = (e) => {
 }
 
     return (
-        <nav className=" nav justify-content-around" >
+        <nav className=" navbar justify-content-around" >
   <a className="nav-link m-2" style={{color: "rgb(51, 59, 63)"}}  href="#" rel="noreferrer" onClick={pageUpdate}>About me</a>
   <a className="nav-link m-2" style={{color: "rgb(51, 59, 63)"}} href="#" rel="noreferrer" onClick={pageUpdate}>Projects</a>
   <a className="nav-link m-2" style={{color: "rgb(51, 59, 63)"}} href="#" rel="noreferrer" onClick={pageUpdate}>Resume</a>

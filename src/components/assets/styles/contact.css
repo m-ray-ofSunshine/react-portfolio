@@ -1,0 +1,41 @@
+
+body #contact-form {
+    
+    
+    
+    
+    padding: 5px 10px;
+   
+   
+    
+}
+body #contact-form input, body #contact-form textarea {
+    width: 100%;
+    border: 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+body #contact-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+body #contact-form button {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+    
+    font-weight: bold;
+    
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+body #contact-form span {
+    display: none;
+    text-align: center;
+}
+body #contact-form span.visible {
+    display: block;
+}

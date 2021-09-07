@@ -6,26 +6,29 @@ import AboutPage from "./components/AboutPage"
 import Projects from "./components/Projects"
 import Resume from "./components/Resume"
 import ContactForm from "./components/ContactForm"
+import Footer from './components/Footer';
 
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('About me');
-  const handlePageChange = (page) => setCurrentPage(page);
+  
+  
   return (
-    <div className="App row container-fluid  d-flex" >
+    <div className="App row  d-flex" >
 
-      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Header/>
+      <div id="aboutMe" style={{height:"15vh"}}>
+      </div>
       <Container content={<AboutPage/>} />
-      <div style={{height:"40vh"}}>
+      <div id="projects" style={{height:"15vh"}}>
       </div>
       <Container content={<Projects/>}/>
-      <div style={{height:"40vh"}}>
+      <div id="resume" style={{height:"12vh"}}>
       </div>
       <Container content={<Resume/>}/>
-      <div style={{height:"40vh"}}>
+      <div id="contactForm" style={{height:"25vh"}}>
       </div>
       <Container content={<ContactForm/>}/>
-      
+      <Footer/>
     </div>
   );
 }
