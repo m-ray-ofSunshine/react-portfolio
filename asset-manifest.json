@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/www.matthew-ray.me/static/css/main.45caddde.chunk.css",
-    "main.js": "/www.matthew-ray.me/static/js/main.0c074e14.chunk.js",
-    "main.js.map": "/www.matthew-ray.me/static/js/main.0c074e14.chunk.js.map",
-    "runtime-main.js": "/www.matthew-ray.me/static/js/runtime-main.89d2d17b.js",
-    "runtime-main.js.map": "/www.matthew-ray.me/static/js/runtime-main.89d2d17b.js.map",
-    "static/js/2.630f425b.chunk.js": "/www.matthew-ray.me/static/js/2.630f425b.chunk.js",
-    "static/js/2.630f425b.chunk.js.map": "/www.matthew-ray.me/static/js/2.630f425b.chunk.js.map",
-    "static/js/3.0cd60a8c.chunk.js": "/www.matthew-ray.me/static/js/3.0cd60a8c.chunk.js",
-    "static/js/3.0cd60a8c.chunk.js.map": "/www.matthew-ray.me/static/js/3.0cd60a8c.chunk.js.map",
-    "index.html": "/www.matthew-ray.me/index.html",
-    "static/css/main.45caddde.chunk.css.map": "/www.matthew-ray.me/static/css/main.45caddde.chunk.css.map",
-    "static/js/2.630f425b.chunk.js.LICENSE.txt": "/www.matthew-ray.me/static/js/2.630f425b.chunk.js.LICENSE.txt",
-    "static/media/ProfileScreenshot.e53c475f.png": "/www.matthew-ray.me/static/media/ProfileScreenshot.e53c475f.png",
-    "static/media/actorDatabase.0b81a249.PNG": "/www.matthew-ray.me/static/media/actorDatabase.0b81a249.PNG",
-    "static/media/oneTrack.a66f6ba8.png": "/www.matthew-ray.me/static/media/oneTrack.a66f6ba8.png",
-    "static/media/teamProfileCombined.81398ac6.jpg": "/www.matthew-ray.me/static/media/teamProfileCombined.81398ac6.jpg",
-    "static/media/weatherDashboard.a3836bb0.JPG": "/www.matthew-ray.me/static/media/weatherDashboard.a3836bb0.JPG",
-    "static/media/App.css": "/www.matthew-ray.me/static/media/yosemite.5a537cc0.jpeg"
+    "main.css": "/react-portfolio/static/css/main.3373bf54.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.0c074e14.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.0c074e14.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.2401a2f3.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.2401a2f3.js.map",
+    "static/js/2.630f425b.chunk.js": "/react-portfolio/static/js/2.630f425b.chunk.js",
+    "static/js/2.630f425b.chunk.js.map": "/react-portfolio/static/js/2.630f425b.chunk.js.map",
+    "static/js/3.0cd60a8c.chunk.js": "/react-portfolio/static/js/3.0cd60a8c.chunk.js",
+    "static/js/3.0cd60a8c.chunk.js.map": "/react-portfolio/static/js/3.0cd60a8c.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.3373bf54.chunk.css.map": "/react-portfolio/static/css/main.3373bf54.chunk.css.map",
+    "static/js/2.630f425b.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.630f425b.chunk.js.LICENSE.txt",
+    "static/media/ProfileScreenshot.e53c475f.png": "/react-portfolio/static/media/ProfileScreenshot.e53c475f.png",
+    "static/media/actorDatabase.0b81a249.PNG": "/react-portfolio/static/media/actorDatabase.0b81a249.PNG",
+    "static/media/oneTrack.a66f6ba8.png": "/react-portfolio/static/media/oneTrack.a66f6ba8.png",
+    "static/media/teamProfileCombined.81398ac6.jpg": "/react-portfolio/static/media/teamProfileCombined.81398ac6.jpg",
+    "static/media/weatherDashboard.a3836bb0.JPG": "/react-portfolio/static/media/weatherDashboard.a3836bb0.JPG",
+    "static/media/App.css": "/react-portfolio/static/media/yosemite.5a537cc0.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.89d2d17b.js",
+    "static/js/runtime-main.2401a2f3.js",
     "static/js/2.630f425b.chunk.js",
-    "static/css/main.45caddde.chunk.css",
+    "static/css/main.3373bf54.chunk.css",
     "static/js/main.0c074e14.chunk.js"
   ]
 }
