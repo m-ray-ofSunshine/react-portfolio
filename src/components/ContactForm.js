@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import emailjs from 'emailjs-com'
 import "./assets/styles/contact.css"
+import linkedin from "./assets/images/LI-In-Bug.png"
+import github from "./assets/images/GitHub-Mark-64px.png"
+
 function ContactForm() {
 
     const [name, setName] = useState('');
@@ -44,6 +47,13 @@ function ContactForm() {
 
         }}>
             <h2 className="mt-2">Contact me</h2>
+            <a href="www.linkedin.com/in/matthew-james-ray" target="_blank" className="m-2">
+                <img src={linkedin} style={{height:"7vh"}}/>
+            </a>
+            <a href="https://github.com/m-ray-ofSunshine" target="_blank" className="m-2">
+                <img src={github} style={{height:"7vh"}}/>
+            </a>
+            <p className="m-2">Email: matthew.j.ray95@gmail.com </p>
             <div id="contact-form" className="mb-3">
             <input type="text" placeholder="Your Name" value={name} onChange={e => setName(e.target.value)} />
             <input type="email" placeholder="Your email address" value={email} onChange={e => setEmail(e.target.value)} />
